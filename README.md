@@ -1,8 +1,8 @@
 # EAC
 
-## calculate eth address randomly and compare with known addresses
+## Notice
 
-1. Please update env if you want to send result with wechat notice.
-2. Both Rust and Golang version are available.
-3. Thread account in config.yaml should be set according your CPU cores. 
+- Please update env if you want to send result with pubhplus notice.
+- Both Rust and Golang version available.
+- Thread account should be set according your CPU cores. 
 
