@@ -1,0 +1,4 @@
+build_addresses_from_file: true
+address_file_path: "address.txt"
+thread_count: 4
+sleep_each_round: false

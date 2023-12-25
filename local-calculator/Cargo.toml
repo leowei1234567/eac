@@ -1,0 +1,19 @@
+[package]
+name = "local-calculator"
+version = "0.1.0"
+authors = ["leowei"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "calculator"
+
+[dependencies]
+serde = {version = "1.0.115", features = ["derive"]}
+config = { version = "0.13", default-features = false, features = ["yaml"] }
+common = { path = "../common" }
+ureq = "2.1"
+dotenv = "0.15.0"
