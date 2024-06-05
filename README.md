@@ -7,3 +7,4 @@
 - Thread account should be set according your CPU cores. 
 - More actions
 - New Feature Ongoing
+- Just record
